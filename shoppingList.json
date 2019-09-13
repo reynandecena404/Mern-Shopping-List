@@ -1,0 +1,3 @@
+{"_id":{"$oid":"5d7321379b951828dc664354"},"name":"Milk","date":{"$date":{"$numberLong":"1567826231436"}},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5d746cc23bc6d61098727cff"},"name":"Chocolate","date":{"$date":{"$numberLong":"1567911106164"}},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5d746deabaa7621cbc659c8d"},"name":"Cola","date":{"$date":{"$numberLong":"1567911402369"}},"__v":{"$numberInt":"0"}}

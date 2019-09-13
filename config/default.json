@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb://127.0.0.1:27017/shoppingList",
+    "jwtSecret": "ROD0784JCB1092ABD0517"
+}
