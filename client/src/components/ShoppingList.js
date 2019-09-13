@@ -31,7 +31,7 @@ class ShoppingList extends Component {
                 <ListGroupItem>
                   {this.props.isAuthenticated ? (
                     <Button
-                      className='remove-btn'
+                      className='remove-btn mr-3'
                       color='danger'
                       size='sm'
                       onClick={this.onDeleteClick.bind(this, _id)}

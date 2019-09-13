@@ -60,7 +60,10 @@ class AppNavbar extends Component {
       <div>
         <Navbar color='dark' dark expand='sm' className='mb-5'>
           <Container>
-            <NavbarBrand href='/'>ShoppingList</NavbarBrand>
+              <NavbarBrand href='/'>
+                <img src="../profile.jpg" className="img-circle mr-3" alt="Logo"/>
+                MERN STACK SHOPPING LIST
+              </NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className='ml-auto' navbar>

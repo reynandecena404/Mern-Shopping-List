@@ -4,6 +4,8 @@ import store from './store';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AppNavbar from './components/AppNavBar';
 import ShoppingList from './components/ShoppingList';
+import ItemModal from './components/ItemModal';
+import {Container} from 'reactstrap';
 import { loadUser } from './actions/authActions';
 import './App.css';
 
@@ -16,7 +18,10 @@ class App extends Component {
       <Provider store = {store}>
         <div className="App">
           <AppNavbar/>
-          <ShoppingList/>
+          <Container>
+            <ItemModal/>
+            <ShoppingList/>
+          </Container>          
         </div>
       </Provider>
       
